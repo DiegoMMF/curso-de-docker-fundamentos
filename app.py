@@ -5,17 +5,12 @@ app = Flask(__name__)
 @app.route('/getMyInfo')
 def getMyInfo():
     value = {
-        "name": "Amin",
-        "lastname": "Espinoza",
+        "name": "Diego",
+        "lastname": "Maldini",
         "socialMedia":
         [
-            {"facebookUser": "aminespinoza10"},
-            {"instagramUser": "aminespinoza10"},
-            {"xUser": "aminespinoza"},
-            {"linkedin": "amin-espinoza"},
-            {"githubUser": "aminespinoza10"}
+            {"linkedin": "DiegoMMF"},
+            {"githubUser": "DiegoMMF"}
         ],
-        "blog": "https://aminespinoza.com",
-        "author": "Miranda Espinoza"
     }
     return json.dumps(value)
